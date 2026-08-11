@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    height: 450px;
+    background-color: bisque;
+}
+
+.mainHeading{
+    color: brown;
+    margin-left: 520px;
+    /* margin-top: 20px; */
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.one{
+    margin-left: 18px;
+    margin-right: 10px;
+    border: solid black 4px;
+    padding: 3px;
+    height: 300px;
+    width: 300px;
+}
+
+.tagline{
+    margin-top: 22px;
+    color: brown;
+    font-family: cursive;
+    font-size: 17px;
+
+}
+
+.para{
+    background-color:rgba(178, 34, 34, 0.85) ;
+    height: 300px;
+}
+
+.top{
+    height: 50px;
+    background-color:rgba(178, 34, 34, 0.85) ;
+
+}
+
+.a{
+    color: azure;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.b{
+    margin-left: 550px;
+}
