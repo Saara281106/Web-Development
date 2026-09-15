@@ -3,21 +3,11 @@
     background-color: bisque;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-
-    /* This is default */
-    /* align-items: stretch; */
-
-
-    /* justify-content: center;
-    align-items: center; */
 
     justify-content: start;
-    align-items: center;
+    align-items: start;
 
     align-content: centre;
-
-    flex-wrap: wrap;
 
     height: 660px;
 }
@@ -30,15 +20,21 @@
 }
 #box1{
     background-color: chartreuse;
+    order: 4;
+    align-self: center;
 }
 #box2{
     background-color: crimson;
+    order: 3;
 }
 #box3{
     background-color: coral;
+    order: 7;
+    align-self: end;
 }
 #box4{
     background-color: darkcyan;
+    order: 5;
 }
 
 .box{
