@@ -2,16 +2,24 @@
     border: solid black 5px;
     background-color: bisque;
     display: flex;
-    /* flex-direction: column-reverse; */
+    flex-direction: row;
     /* flex-wrap: wrap; */
 
     /* This is default */
-    align-items: stretch;
+    /* align-items: stretch; */
 
-    justify-content: center;
+
+    /* justify-content: center;
+    align-items: center; */
+
+    justify-content: start;
     align-items: center;
 
-    height: 649px;
+    align-content: centre;
+
+    flex-wrap: wrap;
+
+    height: 660px;
 }
 .box{
     height: 150px;
@@ -31,4 +39,13 @@
 }
 #box4{
     background-color: darkcyan;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    font-size: 50px;
 }
