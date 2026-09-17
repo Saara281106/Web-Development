@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 660px;
+  background-color: rgb(255, 203, 139);
+  border: 1px black solid;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(180, 114, 241);
+  height: 400px;
+  width: 400px;
+}
+
+@media (min-width:300px) and (max-width: 500px) {
+  .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 227, 110);
+    height: 100px;
+    width: 100px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 660px;
+    background-color: rgb(240, 52, 149);
+    border: 1px black solid;
+  }
+}
