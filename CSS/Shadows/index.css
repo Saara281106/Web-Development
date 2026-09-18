@@ -1,0 +1,47 @@
+img{
+    background-color: darksalmon;
+    height: 110px;
+    box-shadow: 10px 10px 10px rgb(56, 53, 53);
+    border-radius: 12px;
+}
+.container{
+    border: solid black 2px;
+    height: 710px;
+    background-color:bisque;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex ;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(214, 215, 147);
+    padding: 30px;
+    border: solid black 2px;
+
+    /* Method 1 (x y color)*/
+    /* box-shadow: 10px 10px grey; */
+
+    /* Method 2 (x y blur color) */
+    box-shadow: 20px 20px 20px brown;
+
+    /* Method 3 (x y blur spread color) */
+    /* box-shadow: 20px 20px 20px 60px brown; */
+
+    /* Method 4 (inset x y color)*/
+    /* box-shadow: inset -10px -10px grey; */
+
+    /* Method 5 (Double shadow)*/
+    /* box-shadow: 10px 15px red , 15px 40px green; */
+
+    text-shadow: 5px 5px 5px rgba(50, 49, 49, 0.686);
+
+
+}
+
+
+
