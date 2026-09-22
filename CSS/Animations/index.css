@@ -29,9 +29,11 @@
   position: relative;
 
   animation-name: rightMovement;
-  animation-duration: 6s;
-  animation-iteration-count: 5;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
   animation-delay: 1s;
+  animation-timing-function: cubic-bezier(1 , 0.25 , 1 , 1) ;
+  animation-direction: alternate;
 }
 
 @keyframes rightMovement {
@@ -40,7 +42,7 @@
     left: 0;
   }
   to {
-    top: 400px;
+    /* top: 500px; */
     left: 700px;
   }
 }
