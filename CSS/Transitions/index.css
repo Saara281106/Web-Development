@@ -1,0 +1,20 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+    font-weight: bold;
+    background-color: coral;
+    border: solid black 3px;
+    height: 200px;
+    width: 300px;
+
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.box:hover{
+    width: 1200px;
+}
