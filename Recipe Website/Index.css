@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: bisque;
+  overflow-x: none;
+  background: radial-gradient(
+    circle at 50% 50% in oklch,
+    oklch(100% 0 89.88) 0%,
+    oklch(99.88% 0.0018 116.17) 3.2%,
+    oklch(99.76% 0.0044 111.61) 6.5%,
+    oklch(99.62% 0.0074 106.19) 9.7%,
+    oklch(99.43% 0.0108 100.21) 12.9%,
+    oklch(99.19% 0.0124 94.05) 16.1%,
+    oklch(98.86% 0.0132 87.91) 19.4%,
+    oklch(98.43% 0.015 82.19) 22.6%,
+    oklch(97.88% 0.0178 77.16) 25.8%,
+    oklch(97.17% 0.0213 72.32) 29%,
+    oklch(96.34% 0.0254 67.48) 32.3%,
+    oklch(95.4% 0.0277 62.74) 35.5%,
+    oklch(94.4% 0.0291 58.23) 38.7%,
+    oklch(93.38% 0.0303 54.03) 41.9%,
+    oklch(92.37% 0.0315 50.24) 45.2%,
+    oklch(91.4% 0.0325 46.97) 48.4%,
+    oklch(90.5% 0.0336 44.33) 51.6%,
+    oklch(89.61% 0.0345 42.44) 54.8%,
+    oklch(88.73% 0.0353 41.14) 58.1%,
+    oklch(87.85% 0.036 40.27) 61.3%,
+    oklch(86.98% 0.0367 39.63) 64.5%,
+    oklch(86.13% 0.0372 39.06) 67.7%,
+    oklch(85.28% 0.0378 38.38) 71%,
+    oklch(84.46% 0.0384 37.41) 74.2%,
+    oklch(83.62% 0.0391 36.06) 77.4%,
+    oklch(82.75% 0.0397 34.46) 80.6%,
+    oklch(81.86% 0.0403 32.74) 83.9%,
+    oklch(80.99% 0.0409 30.98) 87.1%,
+    oklch(80.17% 0.0415 29.28) 90.3%,
+    oklch(79.43% 0.042 27.73) 93.5%,
+    oklch(78.81% 0.0424 26.43) 96.8%,
+    oklch(78.35% 0.0427 25.48) 100%
+  );
+}
+
+#navList {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header {
+  /* background-color: rgba(189, 95, 95, 0.911); */
+  background: linear-gradient(
+    225deg in oklch,
+    oklch(34.65% 0.0427 35.86) 0%,
+    oklch(42.8% 0.0497 10.46) 14.3%,
+    oklch(57.64% 0.053 25.9) 28.6%,
+    oklch(73.07% 0.0599 63.33) 42.9%,
+    oklch(79.66% 0.0855 72.77) 57.1%,
+    oklch(72.66% 0.1011 65.41) 71.4%,
+    oklch(58.33% 0.1028 51.75) 85.7%,
+    oklch(43.31% 0.0923 40.09) 100%
+  );
+  margin: 0px;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.brandLogo {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(209, 209, 192);
+}
+
+.pages {
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
